@@ -19,5 +19,14 @@ public class Main {
         System.out.println("myIntValue " + myIntValue);
         System.out.println("myFloatValue " + myFloatValue);
         System.out.println("myDoubleValue " + myDoubleValue);
+
+        int pounds = 5;
+        double conversion = 0.45359237d;
+        double kilos = pounds * conversion;
+        System.out.println(kilos);
+
+
+        //tou can use underscores in decimals too.
+        double pi = 3.141_592_7d;
     }
 }
